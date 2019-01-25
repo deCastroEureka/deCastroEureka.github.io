@@ -1,0 +1,61 @@
+.header {
+	text-align: center;
+	height: 70vw;
+	background-color: #B0C4DE;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+.navbar a {
+	height: 100%;
+	text-align: center;
+	color: white;
+	float:left;
+	display: block;
+	text-decoration: none;
+	padding: 14px 20px; 
+}
+
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+
+}
+
+
+h1 {
+	padding-top: 40vw;
+
+	text-align: center;
+}
+
+.column {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.side {
+	flex: 30%;
+	background-color:#f1f1f1;;
+}
+
+.main {
+	flex: 70%;
+	background-color: white;
+}
+ @media screen and (max-width: 400px) {
+ 	.navbar a {
+ 		float: none;
+ 		width: 100%;
+ 	}
+ }
+
+ .footer {
+ 	padding: 20px;
+ 	text-align: center;
+ 	background: #ddd;
+ }
