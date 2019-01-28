@@ -78,8 +78,13 @@ h2 {
     margin-top: 0;
 
 }
-
-
+p {
+	font-size: 2vw;
+font-family: 'Sarabun', sans-serif;   	
+}
+p::first-letter {
+	font-family: 'Major Mono Display', monospace;
+}
 
 .column {
 
