@@ -1,0 +1,134 @@
+div.header {
+background-repeat: no-repeat;
+	height: 60vw;
+padding-top: 0;
+background-size: 100% 100%;
+	background-image: url("Image-1.jpg")
+
+}
+body {
+	margin-top: 0;
+}
+
+
+.navbar {
+
+	overflow: hidden;
+
+	background-color: #333;
+
+
+
+}
+
+
+
+.navbar a {
+
+	height: 100%;
+
+	text-align: center;
+
+	color: white;
+
+	float:left;
+
+	display: block;
+
+	text-decoration: none;
+
+	padding: 14px 20px; 
+
+}
+
+
+
+.navbar a:hover {
+
+	background-color: #ddd;
+
+	color: black;
+
+
+
+}
+
+
+
+
+
+h1 {
+
+	color: white;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7vw;
+    padding-top: 20vw;
+    padding-left: 10vw;
+}
+
+
+
+h2 {
+
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7vw;
+    padding-top: 2vw;
+    padding-left: 20vw;
+    margin-top: 0;
+
+}
+
+
+
+.column {
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+
+
+}
+
+
+
+.right {
+
+padding-left: 70vw;
+
+}
+
+.main {
+
+	flex: 90%;
+
+	background-color: white;
+
+}
+
+ @media screen and (max-width: 400px) {
+
+ 	.navbar a {
+
+ 		float: none;
+
+ 		width: 100%;
+
+ 	}
+
+ }
+
+
+
+ .footer {
+
+ 	padding: 20px;
+
+ 	text-align: center;
+
+ 	background: #ddd;
+
+ }
+
+
