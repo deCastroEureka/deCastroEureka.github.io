@@ -80,7 +80,8 @@ h2 {
 }
 p {
 	font-size: 2vw;
-font-family: 'Sarabun', sans-serif;   	
+        font-family:Helvetica Neue, Helvetica, Arial, sans-serif; 
+        font-weight:100;
 }
 p::first-letter {
 	font-family: 'Major Mono Display', monospace;
