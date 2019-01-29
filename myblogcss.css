@@ -108,7 +108,9 @@ padding-left: 70vw;
 .main {
 
 	flex: 90%;
-
+	box-shadow: 10px 5px 5px black;
+        margin-left: 5vw;
+	margin-right: 5vw;
 	background-color: white;
 
 }
