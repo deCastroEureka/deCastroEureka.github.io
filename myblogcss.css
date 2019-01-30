@@ -5,10 +5,11 @@ body {
 }
 
 header {
-background-repeat: no-repeat;
+        background-repeat: no-repeat;
 	height: 60vw;
-padding-top: 0;
-background-size: 100% 100%;
+        padding: 0;
+	margin: 0;
+        background-size: 100% 100%;
 	background-image: url("Image-1.jpg")
 
 }
