@@ -1,4 +1,10 @@
-div.header {
+body {
+	padding: 0;
+	margin: 0;
+	background-color: gray;
+}
+
+header {
 background-repeat: no-repeat;
 	height: 60vw;
 padding-top: 0;
@@ -6,10 +12,6 @@ background-size: 100% 100%;
 	background-image: url("Image-1.jpg")
 
 }
-body {
-	margin-top: 0;
-}
-
 
 .navbar {
 
@@ -66,7 +68,9 @@ h1 {
     padding-left: 10vw;
 }
 
-
+h1::first-letter {
+	color:#E18A07;
+}
 
 h2 {
 
@@ -78,11 +82,14 @@ h2 {
     margin-top: 0;
 
 }
+
+
 p {
 	font-size: 2vw;
-        font-family: Helvetica, Arial, sans-serif; 
-        font-weight:100;
-	padding: 1vw 2vw 2vw 1vw;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight:100;
+	padding: 5vw 3vw 5vw 5vw;
+	line-height: 1.5;
 }
 p::first-letter {
 	font-family: 'Major Mono Display', monospace;
@@ -98,20 +105,12 @@ p::first-letter {
 
 }
 
-
-
-.right {
-
-padding-left: 70vw;
-
-}
-
-.main {
+section {
 
 	flex: 90%;
 	box-shadow: 10px 5px 5px black;
 	margin-top: 3vw;
-        margin-left: 3vw;
+    margin-left: 3vw;
 	margin-right: 3vw;
 	background-color: white;
 
