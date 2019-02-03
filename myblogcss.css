@@ -1,60 +1,60 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-color: gray;
+	background-color: white;
 }
 
 header {
-        background-repeat: no-repeat;
+background-repeat: no-repeat;
 	height: 60vw;
-        padding: 0;
+padding-top: 0;
+background-size: 100% 100%;
+	background-image: url("background.jpg");
+
+}
+
+
+h1 #branding {
+	font-size: 2em;
+	font-style: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 5vw;
+	padding: 0;
 	margin: 0;
-        background-size: 100% 100%;
-	background-image: url("Image-1.jpg")
-
-}
-
-.navbar {
-
-	overflow: hidden;
-
-	background-color: #333;
-
-
-
 }
 
 
 
-.navbar a {
-
-	height: 100%;
-
+header a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.6em;
 	text-align: center;
 
+}
+header ul {
+	padding: 0;
+	margin:0;
+	height: 5.7vw;
+    box-shadow: 8px 8px 5px #333333;
+	background-color: #336699;
+	overflow: hidden;
+}
+
+header li{
+	float: right;
+	text-align: center;
+	display: inline-block;
 	color: white;
-
-	float:left;
-
-	display: block;
-
-	text-decoration: none;
-
-	padding: 14px 20px; 
-
+	padding: 15px 25px 0 25px;
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 7vw;
 }
 
-
-
-.navbar a:hover {
-
-	background-color: #ddd;
-
-	color: black;
-
-
-
+header li:hover {
+	background-color: #999999;
 }
+
 
 
 
@@ -65,12 +65,13 @@ h1 {
 	color: white;
     font-family: 'Major Mono Display', monospace;
     font-size: 7vw;
-    padding-top: 20vw;
+    padding-top: 10vw;
     padding-left: 10vw;
+    margin-top: 0;
 }
 
 h1::first-letter {
-	color:#E18A07;
+	color:#999999;
 }
 
 h2 {
@@ -78,10 +79,15 @@ h2 {
     color: white;
     font-family: 'Major Mono Display', monospace;
     font-size: 7vw;
-    padding-top: 2vw;
-    padding-left: 20vw;
+    padding-top: 0.5vw;
+    padding-left: 15vw;
     margin-top: 0;
 
+}
+
+.boxquote {
+	width: 30%;
+	font-family: Helvetica, Arial, sans-serif; 
 }
 
 
@@ -91,10 +97,13 @@ p {
     font-weight:100;
 	padding: 5vw 3vw 5vw 5vw;
 	line-height: 1.5;
+	word-wrap: break-word;
 }
 p::first-letter {
 	font-family: 'Major Mono Display', monospace;
 }
+
+
 
 .column {
 
@@ -108,36 +117,25 @@ p::first-letter {
 
 section {
 
-	flex: 90%;
-	box-shadow: 10px 5px 5px black;
-	margin-top: 3vw;
-    margin-left: 3vw;
-	margin-right: 3vw;
+    margin: 0;
 	background-color: white;
 
 }
 
  @media screen and (max-width: 400px) {
 
- 	.navbar a {
 
- 		float: none;
-
- 		width: 100%;
-
- 	}
 
  }
 
 
 
- .footer {
-
+ footer {
+ 	margin-top: 0;
  	padding: 20px;
-
  	text-align: center;
-
- 	background: #ddd;
+ 	background: #999999;
+ 	height: 7vw;
 
  }
 
