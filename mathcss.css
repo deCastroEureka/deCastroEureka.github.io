@@ -1,0 +1,54 @@
+header{
+background-repeat: no-repeat;
+	height: 57vw;
+padding-top: 0;
+background-size: 100% 100%;
+	background-image: url("mathbackground.jpg");
+
+}
+
+header li{
+	display: inline;
+	font-size: 1.3em;
+	font-family: verdana;
+    text-decoration: none;
+    color: white;
+    padding: 0 14px 0 14px;
+    float: right;
+
+
+}
+
+header a {
+	color: white;
+	font-size: 1.3em;
+	font-family: verdana;
+	text-decoration: none;
+
+}
+
+li a.active {
+	border-bottom-style: solid;
+	border-bottom-style: 
+	border-bottom-width: 10px;
+	border-bottom-color: #FB8122;
+	color: #E1E2E2;
+}
+
+nav {
+	padding-top: 5px;
+	padding-right: 10px;
+
+}
+
+h1 {
+	margin-top: 40vw;
+	font-size: 2em;
+}
+
+.signup {
+	display: block;
+	background-color: #E1E2E2;
+	color: #1D2228;
+	width
+}
