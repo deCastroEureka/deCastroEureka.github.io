@@ -1,3 +1,3 @@
-# deCastroEureka.github.io
-my personal blog
+# Joaquin de Castro's
+personal blog + website
 
