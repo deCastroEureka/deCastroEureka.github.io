@@ -55,7 +55,9 @@ header li:hover {
 	background-color: #999999;
 }
 
-
+.sticky {
+	position: fixed;
+	width: 100%;
 
 
 
